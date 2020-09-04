@@ -66,7 +66,7 @@ public class MSSceneControllerFree : MonoBehaviour
     public string _mouseScrollWheelInput = "Mouse ScrollWheel";
     #endregion
 
-    public enum ControlTypeFree { windows, mobileButton };
+    public enum ControlTypeFree { windows, mobileButton, joyStick };
 
     [Space(10)]
     [Tooltip("Here you can configure the vehicle controls, choose the desired inputs and also, deactivate the unwanted ones.")]
@@ -334,6 +334,16 @@ public class MSSceneControllerFree : MonoBehaviour
                     verticalInput = MSbuttonVertical;
                     horizontalInput = MSbuttonHorizontal;
                     mouseScrollWheelInput = Input.GetAxis(_mouseScrollWheelInput);
+                    break;
+                case ControlTypeFree.joyStick:
+                    if (GameManager.Instance.isReadyForMove)
+                    {
+                        verticalInput = Input.GetAxis(_verticalInput);
+                        horizontalInput = Input.GetAxis(_horizontalInput);
+                        mouseXInput = Input.GetAxis(_mouseXInput);
+                        mouseYInput = Input.GetAxis(_mouseYInput);
+                        mouseScrollWheelInput = Input.GetAxis(_mouseScrollWheelInput);
+                    }
                     break;
                 case ControlTypeFree.windows:
                     verticalInput = Input.GetAxis(_verticalInput);

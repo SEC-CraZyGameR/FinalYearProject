@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance = null;
+
+    public bool isReadyForMove = false;
+
     public GameObject humanPrefab;
     [SerializeField] private int humanAmount;
 
     [HideInInspector]
     public List<Transform> waypoints = new List<Transform>();
 
-    private void Start()
+    private void Awake()
     {
-        waypoints = WayPointsManager.Instance.waypointsRight;
-        for (int i = 0; i < humanAmount; i++)
-        {
-            Vector3 pos = waypoints[Random.Range(0, waypoints.Count)].position;
-            Instantiate(humanPrefab, pos, Quaternion.identity);
-        }
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
     }
+
+
 }
