@@ -41,8 +41,8 @@ public class SeatBeltController : MonoBehaviour
         if (txtSeatBeltInput.gameObject != null)
         {
             Sequence sequence = DOTween.Sequence();
-            sequence.Append(txtSeatBeltInput.transform.DOScale(new Vector3(.8f, .8f, .8f), 1.0f)).
-                Append(txtSeatBeltInput.transform.DOScale(Vector3.one, 1.0f));
+            sequence.Append(txtSeatBeltInput.transform.DOScale(new Vector3(.8f, .8f, .8f), .5f)).
+                Append(txtSeatBeltInput.transform.DOScale(Vector3.one, 1.0f)).SetLoops(-1);
         }
     }
 }
