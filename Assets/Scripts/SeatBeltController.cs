@@ -25,7 +25,7 @@ public class SeatBeltController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             beforeUseSeatBelt.SetActive(false);
             afterUseSeatBelt.SetActive(true);
