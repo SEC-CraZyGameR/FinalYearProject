@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PathIndicator
+  - AICars
+  - Destination
   layers:
   - Default
   - TransparentFX

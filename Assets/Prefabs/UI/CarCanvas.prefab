@@ -401,6 +401,7 @@ GameObject:
   - component: {fileID: 5313131186406800803}
   - component: {fileID: 5313131186406800802}
   - component: {fileID: 5313131186406800801}
+  - component: {fileID: 3391367391980546686}
   m_Layer: 0
   m_Name: CarCanvas
   m_TagString: Untagged
@@ -488,6 +489,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3391367391980546686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313131186406800815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e27461fd48053e42b37783c89c9f75b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtDialogue: {fileID: 0}
 --- !u!1 &5313131186434165956
 GameObject:
   m_ObjectHideFlags: 0

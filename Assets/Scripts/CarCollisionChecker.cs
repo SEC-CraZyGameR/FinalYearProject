@@ -13,9 +13,22 @@ public class CarCollisionChecker : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("PathIndicator"))
+
+        switch(other.tag)
         {
-            Destroy(other.gameObject);
+            case "PathIndicator":
+                Destroy(other.gameObject);
+                break;
+            case "Destination":
+                CarCanvas.Instance.ShowDialogue("You Have Reached Your Destination.Thank You");
+                break;
+            default:
+                break;
         }
+
+        //if (other.CompareTag("PathIndicator"))
+        //{
+        //    Destroy(other.gameObject);
+        //}
     }
 }
