@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class GVRButton : MonoBehaviour
+public class GVRButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public ButtonID buttonID;
     private Image imageCircle;
@@ -14,7 +15,6 @@ public class GVRButton : MonoBehaviour
 
     private void Start()
     {
-        buttonID = ButtonID.btnPlay;
         imageCircle = UIManager.Instance.imgCircle;
     }
 
@@ -44,5 +44,15 @@ public class GVRButton : MonoBehaviour
         gvrStatus = false;
         gvrTimer = 0;
         imageCircle.fillAmount = 0;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        GvrOn();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        GvrOff();
     }
 }

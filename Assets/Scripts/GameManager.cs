@@ -14,12 +14,21 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public List<Transform> waypoints = new List<Transform>();
 
+    public GameObject car;
+    public GameObject map;
+
     private void Awake()
     {
         if (Instance == null)
             Instance = this;
         else
             Destroy(gameObject);
+    }
+
+    public void LoadGame()
+    {
+        map.SetActive(true);
+        car.SetActive(true);
     }
 
 
