@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class GVRButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public ButtonID buttonID;
+    public int value;//
     private Image imageCircle;
     private float totalTime = 2f;
     private bool gvrStatus;
@@ -28,7 +29,12 @@ public class GVRButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
         if (gvrTimer > totalTime)
         {
-            UIManager.Instance.ButtonClickResponse((int)buttonID);
+            if (buttonID == ButtonID.playGame)
+            {
+                UIManager.Instance.ButtonClickResponse((int)buttonID, value);
+            }
+            else
+                UIManager.Instance.ButtonClickResponse((int)buttonID);
             gvrStatus = false;
             gvrTimer = 0;
         }
