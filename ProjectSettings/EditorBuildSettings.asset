@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/RealisticCarControllerV3/Demo Scenes/RCC Blank Mobile UI.unity
     guid: a1ce056a549219c40a6aa6df8c3e28ea
   - enabled: 1
-    path: Assets/Scenes/VrEnvironment.unity
+    path: Assets/_Scenes/VrEnvironment.unity
     guid: ca501a5c0ed122149a2cb4dcbe978566
   m_configObjects: {}
