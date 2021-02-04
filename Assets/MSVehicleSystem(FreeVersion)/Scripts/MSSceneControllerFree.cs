@@ -346,11 +346,14 @@ public class MSSceneControllerFree : MonoBehaviour
                     }
                     break;
                 case ControlTypeFree.windows:
-                    verticalInput = Input.GetAxis(_verticalInput);
-                    horizontalInput = Input.GetAxis(_horizontalInput);
-                    mouseXInput = Input.GetAxis(_mouseXInput);
-                    mouseYInput = Input.GetAxis(_mouseYInput);
-                    mouseScrollWheelInput = Input.GetAxis(_mouseScrollWheelInput);
+                    if (GameManager.Instance.isReadyForMove)
+                    {
+                        verticalInput = Input.GetAxis(_verticalInput);
+                        horizontalInput = Input.GetAxis(_horizontalInput);
+                        mouseXInput = Input.GetAxis(_mouseXInput);
+                        mouseYInput = Input.GetAxis(_mouseYInput);
+                        mouseScrollWheelInput = Input.GetAxis(_mouseScrollWheelInput);
+                    }
                     break;
             }
             #endregion
