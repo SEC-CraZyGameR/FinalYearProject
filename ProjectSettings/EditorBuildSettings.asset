@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/RealisticCarControllerV3/Demo Scenes/RCC Blank Mobile UI.unity
-    guid: a1ce056a549219c40a6aa6df8c3e28ea
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/VrEnvironment.unity
     guid: ca501a5c0ed122149a2cb4dcbe978566
+  - enabled: 1
+    path: Assets/CurvedUI/Demo Scenes/Menu_Scene.unity
+    guid: 5c9348ca8ac1b4e169296db91fbaff31
   m_configObjects: {}

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEditor.SceneManagement;
+﻿using TMPro;
 using UnityEngine;
 using DG.Tweening;
 
