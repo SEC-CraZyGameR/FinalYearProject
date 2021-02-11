@@ -9,6 +9,7 @@ namespace CurvedUI
     public class CUI_PickImageFromSet : MonoBehaviour
     {
         public ButtonID buttonId;
+        public string textToSpeech = "Button pressed";
 
         static CUI_PickImageFromSet picked = null;
 
@@ -24,6 +25,7 @@ namespace CurvedUI
                 picked.GetComponent<Button>().targetGraphic.color = Color.white;
             //Debug.Log("Clicked this!", this.gameObject);
 
+            VoiceController.Instance.StartSpeak(textToSpeech);
 
             picked = this;
             picked.GetComponent<Button>().targetGraphic.color = Color.red;
