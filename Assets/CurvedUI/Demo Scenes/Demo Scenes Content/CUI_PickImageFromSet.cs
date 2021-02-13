@@ -39,6 +39,7 @@ namespace CurvedUI
             if (MenuManager.Instance != null)
             {
                 MenuManager.Instance.ButtonClickResponse((int)buttonId);
+                //Debug.Log("=============");
             }
         }
     }

@@ -78,7 +78,13 @@ public class MenuManager : MonoBehaviour
                 BtnBackToHomeCallBack();
                 break;
             case (int)ButtonID.levelSelection:
-                
+
+                break;
+            case (int)ButtonID.levelSelectionLeftBtn:
+                LevelSelection.Instance.LeftBtnCallBack();
+                break;
+            case (int)ButtonID.levelSelectionRightBtn:
+                LevelSelection.Instance.RightBtnCallBack();
                 break;
             default:
                 break;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public interface ILevelSelection
 {
@@ -9,8 +10,11 @@ public interface ILevelSelection
 
 public class LevelSelectionItem : MonoBehaviour, ILevelSelection
 {
+    [SerializeField] Image imgItem;
+    [SerializeField] Button btnItem;
+
     public void AssignValue(LevelInfo _levelInfo)
     {
-        throw new System.NotImplementedException();
+        imgItem.sprite = _levelInfo.levelSprite;
     }
 }
