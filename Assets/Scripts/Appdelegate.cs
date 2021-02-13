@@ -7,7 +7,7 @@ public class Appdelegate
 {
     public static Appdelegate sharedInstance = null;
 
-    public Appdelegate SharedManager()
+    public static Appdelegate SharedManager()
     {
         if (sharedInstance == null)
         {
