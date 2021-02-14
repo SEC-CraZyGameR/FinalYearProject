@@ -7,6 +7,8 @@ TagManager:
   - PathIndicator
   - AICars
   - Destination
+  - Areacolider
+  - Car
   layers:
   - Default
   - TransparentFX
