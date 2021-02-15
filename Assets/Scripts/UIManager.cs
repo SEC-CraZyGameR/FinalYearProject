@@ -80,6 +80,12 @@ public class UIManager : MonoBehaviour
             case (int)ButtonID.levelSelection:
                 LevelSelectionCallBack();
                 break;
+            case (int)ButtonID.levelSelectionLeftBtn:
+                LevelSelection.Instance.LeftBtnCallBack();
+                break;
+            case (int)ButtonID.levelSelectionRightBtn:
+                LevelSelection.Instance.RightBtnCallBack();
+                break;
             default:
                 break;
         }
