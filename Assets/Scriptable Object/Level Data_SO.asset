@@ -15,13 +15,17 @@ MonoBehaviour:
   AllLevelInfo:
   - levelId: 1
     levelName: 1
+    sceneName: Level_01
     levelSprite: {fileID: 21300000, guid: 4d771a7b36dc772428a4f7f97fdfa95c, type: 3}
   - levelId: 1
     levelName: 1
+    sceneName: 
     levelSprite: {fileID: 21300000, guid: 09fe66a25a6fff0409d7e424c3c80b5c, type: 3}
   - levelId: 1
     levelName: 1
+    sceneName: 
     levelSprite: {fileID: 21300000, guid: bc5b626e67ce2554c82176b1e303bb48, type: 3}
   - levelId: 1
     levelName: 1
+    sceneName: 
     levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}

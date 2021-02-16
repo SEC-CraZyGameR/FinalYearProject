@@ -6129,3 +6129,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73545e944dde54994976fd5156fadf94, type: 3}
+--- !u!1 &5540501138168421459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6033697111055390131, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5540501138168421460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2480266950404588636, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5540501138168421461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5540501137463992659, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5540501138168421462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540501138168421459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed
+--- !u!114 &5540501138168421463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540501138168421460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed
+--- !u!114 &5540501138168421464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540501138168421461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed

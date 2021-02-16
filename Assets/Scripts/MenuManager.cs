@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
@@ -61,7 +62,7 @@ public class MenuManager : MonoBehaviour
         levelSelection.SetActive(false);
     }
 
-    public void ButtonClickResponse(int buttonId, int selectedLevel = 0)
+    public void ButtonClickResponse(int buttonId, LevelInfo levelInfo = null)
     {
         switch (buttonId)
         {
@@ -78,7 +79,7 @@ public class MenuManager : MonoBehaviour
                 BtnBackToHomeCallBack();
                 break;
             case (int)ButtonID.levelSelection:
-
+                LoadScene(levelInfo.sceneName);
                 break;
             case (int)ButtonID.levelSelectionLeftBtn:
                 LevelSelection.Instance.LeftBtnCallBack();
@@ -89,5 +90,11 @@ public class MenuManager : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void LoadScene(string _sceneName)
+    {
+        SceneManager.LoadScene(_sceneName);
+
     }
 }

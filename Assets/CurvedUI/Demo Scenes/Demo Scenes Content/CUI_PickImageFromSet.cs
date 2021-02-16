@@ -35,10 +35,15 @@ namespace CurvedUI
 
         private IEnumerator SendBtnClickResponse()
         {
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(.25f);
             if (MenuManager.Instance != null)
             {
-                MenuManager.Instance.ButtonClickResponse((int)buttonId);
+                if (buttonId == ButtonID.levelSelection)
+                    MenuManager.Instance.ButtonClickResponse((int)buttonId, GetComponent<LevelSelectionItem>().levelInfo);
+                else
+                {
+                    MenuManager.Instance.ButtonClickResponse((int)buttonId);
+                }
                 //Debug.Log("=============");
             }
         }

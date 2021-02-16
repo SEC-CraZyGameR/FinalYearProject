@@ -7,6 +7,7 @@ public class LevelInfo
     [Tooltip("Scene Name")]
     public string levelId;
     public string levelName;
+    public string sceneName;
     public Sprite levelSprite;
 }
 
