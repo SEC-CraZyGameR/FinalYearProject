@@ -1784,6 +1784,26 @@ MonoBehaviour:
   savedColor: {r: 0, g: 0, b: 0, a: 0.392}
   savedTextUV0: {x: 0, y: 0}
   savedFill: 1
+--- !u!1 &471458544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5540501137463992659, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &471458551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471458544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed
 --- !u!1 &488718319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,6 +1930,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &504387148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6033697111055390131, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &504387155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504387148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed
 --- !u!1 &624784737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,6 +3030,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126381034}
   m_CullTransparentMesh: 0
+--- !u!1 &1157136712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2480266950404588636, guid: 73545e944dde54994976fd5156fadf94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5540501138168421458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1157136719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157136712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonId: 5
+  textToSpeech: Button pressed
 --- !u!1 &1173312313
 GameObject:
   m_ObjectHideFlags: 0
