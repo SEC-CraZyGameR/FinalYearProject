@@ -38,7 +38,7 @@ public class MenuManager : MonoBehaviour
         home.SetActive(false);
         about.SetActive(false);
         credits.SetActive(false);
-        GameManager.Instance.LoadGame();
+        //GameManager.Instance.LoadGame();
     }
     private void BtnAboutCallBack()
     {

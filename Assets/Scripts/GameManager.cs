@@ -8,14 +8,8 @@ public class GameManager : MonoBehaviour
 
     public bool isReadyForMove = false;
 
-    public GameObject humanPrefab;
-    [SerializeField] private int humanAmount;
-
-    [HideInInspector]
-    public List<Transform> waypoints = new List<Transform>();
-
-    public GameObject car;
-    public GameObject map;
+    [SerializeField] Transform roadSign;
+    [SerializeField] Transform playerVehicle;
 
     private void Awake()
     {
@@ -24,12 +18,5 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
-
-    public void LoadGame()
-    {
-        map.SetActive(true);
-        car.SetActive(true);
-    }
-
 
 }
