@@ -1564,10 +1564,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2085857648}
     m_Modifications:
-    - target: {fileID: 4019673101289339, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.877
-      objectReference: {fileID: 0}
     - target: {fileID: 5785279147860448056, guid: 1846161e54314b549bb3ed1ae21bb8a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1623,36 +1619,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5789073880783618636, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8346795
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789073880783618636, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.000000007640452
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789073880783618636, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.55073607
-      objectReference: {fileID: 0}
     - target: {fileID: 5790779783278478606, guid: 1846161e54314b549bb3ed1ae21bb8a8,
         type: 3}
       propertyPath: m_Name
       value: Vehicle1
       objectReference: {fileID: 0}
-    - target: {fileID: 5791541846101091366, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5894798347191276988, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-        type: 3}
-      propertyPath: _vehicleSettings.volant
-      value: 
-      objectReference: {fileID: 1798426786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
 --- !u!1001 &44252777
@@ -60248,12 +60219,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3ab888083d06e9b4b8a6eaa0568b5ac8,
     type: 3}
   m_PrefabInstance: {fileID: 1792279720}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1798426786 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3194000107749063560, guid: 1846161e54314b549bb3ed1ae21bb8a8,
-    type: 3}
-  m_PrefabInstance: {fileID: 41485765}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1799924417 stripped
 Transform:
