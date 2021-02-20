@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
 
-    public bool isReadyForMove = false;
+    public bool isReadyForMove = true;
 
     [SerializeField] Transform roadSign;
     [SerializeField] Transform playerVehicle;
@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        isReadyForMove = true;
     }
 
 }

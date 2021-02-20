@@ -28,4 +28,16 @@ public class LevelData_SO : ScriptableObject
         }
         return AllLevelInfo[0];
     }
+
+    public LevelInfo GetNextLevelInfo(string _sceneName)
+    {
+        for (int i = 0; i < AllLevelInfo.Count; i++)
+        {
+            if (AllLevelInfo[i].sceneName == _sceneName)
+            {
+                return AllLevelInfo[i + 1];
+            }
+        }
+        return AllLevelInfo[0];
+    }
 }

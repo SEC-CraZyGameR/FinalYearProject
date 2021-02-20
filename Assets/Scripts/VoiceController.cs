@@ -25,7 +25,7 @@ public class VoiceController : MonoBehaviour
     }
     public static void Init()
     {
-        if (Instance != null) return;
+        if (_instance != null) return;
         GameObject obj = new GameObject
         {
             name = "VoiceController"
