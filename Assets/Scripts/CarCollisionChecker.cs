@@ -42,7 +42,7 @@ public class CarCollisionChecker : MonoBehaviour
 
     IEnumerator GoToNext()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(5.5f);
         LevelInfo nextlevelInfo = levelData.GetNextLevelInfo(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(nextlevelInfo.sceneName);
     }
