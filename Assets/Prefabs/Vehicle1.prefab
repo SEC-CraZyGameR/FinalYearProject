@@ -1534,7 +1534,7 @@ MonoBehaviour:
       verticalDownForce: 0.8
       minDownForceValue: 2
     centerOfMass: {fileID: 595605745}
-    volant: {fileID: 3194000107749063560}
+    volant: {fileID: 3073251091465479382}
     angle_x_Velocity:
       serializedVersion: 2
       m_Curve:
@@ -3218,7 +3218,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4019673904922964, guid: de53374949c380a43831cdf100ac633d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.877
+      value: -0.919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019673904922964, guid: de53374949c380a43831cdf100ac633d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019673904922964, guid: de53374949c380a43831cdf100ac633d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.024
       objectReference: {fileID: 0}
     - target: {fileID: 4262860458111470, guid: de53374949c380a43831cdf100ac633d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3277,9 +3285,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1348961839}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3194000107749063560 stripped
+--- !u!1 &3073251091465479382 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3194000106937826727, guid: de53374949c380a43831cdf100ac633d,
+  m_CorrespondingSourceObject: {fileID: 3073251092264788729, guid: de53374949c380a43831cdf100ac633d,
     type: 3}
   m_PrefabInstance: {fileID: 1348961839}
   m_PrefabAsset: {fileID: 0}

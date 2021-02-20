@@ -1564,6 +1564,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2085857648}
     m_Modifications:
+    - target: {fileID: 4019673101289339, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019673101289339, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019673101289339, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17364816
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9848078
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203441621433090016, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.082
+      objectReference: {fileID: 0}
     - target: {fileID: 5785279147860448056, guid: 1846161e54314b549bb3ed1ae21bb8a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1624,6 +1666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle1
       objectReference: {fileID: 0}
+    - target: {fileID: 5894798347191276988, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: _vehicleSettings.volant
+      value: 
+      objectReference: {fileID: 1570529124}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
 --- !u!1001 &44252777
@@ -52182,6 +52229,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 13a42c241463e034082f2fbcda640817,
     type: 3}
   m_PrefabInstance: {fileID: 1568724855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1570529124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3073251091465479382, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 41485765}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1571556995
 PrefabInstance:
