@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] Transform roadSign;
     [SerializeField] Transform playerVehicle;
 
+
+    bool isSeatBeltDone = false;
+
     private void Awake()
     {
         if (Instance == null)
@@ -18,7 +21,39 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        isReadyForMove = true;
+        isReadyForMove = false;
+    }
+
+    public void Start()
+    {
+        SeatBeltCommand();
+    }
+
+    public void SeatBeltCommand()
+    {
+        string strtSeatBeltCommand = "Please, Use Seat Belt To Start Car. Input joystick's B key to wear seat belt";
+        VoiceController.Instance.StartSpeak(strtSeatBeltCommand);
+    }
+
+    public void InputInstruction()
+    {
+        string inputInstruction = "Use joystick's left wheel to move";
+        VoiceController.Instance.StartSpeak(inputInstruction);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.X))
+        {
+            if (!isSeatBeltDone)
+            {
+                isSeatBeltDone = true;
+                VoiceController.Instance.StopSpeak();
+                isReadyForMove = true;
+                MSVehicleControllerFree.Instance.theEngineIsRunning = true;
+
+            }
+        }
     }
 
 }

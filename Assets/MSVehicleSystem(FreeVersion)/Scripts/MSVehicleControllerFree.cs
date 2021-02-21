@@ -540,6 +540,7 @@ public class MSVehicleControllerFree : MonoBehaviour
     [HideInInspector]
     public bool isInsideTheCar;
 
+    [HideInInspector] public bool stopCar = false;
     MSSceneControllerFree controls;
 
     void Awake()
@@ -1160,8 +1161,16 @@ public class MSVehicleControllerFree : MonoBehaviour
         }
     }
 
+    public void StopCar()
+    {
+        //Stop Car
+    }
+
     void Update()
     {
+
+        if (stopCar)
+            return;
 
         wheelFDIsGrounded = _wheels.rightFrontWheel.wheelCollider.isGrounded;
         wheelFEIsGrounded = _wheels.leftFrontWheel.wheelCollider.isGrounded;
@@ -2343,6 +2352,7 @@ public class MSVehicleControllerFree : MonoBehaviour
         if (Input.GetKey(controls.controls.handBrakeInput) && controls.controls.enable_handBrakeInput_Input)
         {
             handBrake_Input = 2;
+            //Debug.Log("HandBrake");
         }
         handBrake_Input = handBrake_Input * 1000;
         //FREIO TOTAL

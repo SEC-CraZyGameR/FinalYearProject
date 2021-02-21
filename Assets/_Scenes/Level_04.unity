@@ -1624,6 +1624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle1
       objectReference: {fileID: 0}
+    - target: {fileID: 5894798347191276988, guid: 1846161e54314b549bb3ed1ae21bb8a8,
+        type: 3}
+      propertyPath: _vehicleSettings.startOn
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1846161e54314b549bb3ed1ae21bb8a8, type: 3}
 --- !u!1001 &44252777
@@ -10531,6 +10536,11 @@ PrefabInstance:
     - target: {fileID: 1715749343420829152, guid: 555f19e3f96489e4b87d77029e70d81b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715749343420829154, guid: 555f19e3f96489e4b87d77029e70d81b,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1715749343420829165, guid: 555f19e3f96489e4b87d77029e70d81b,
@@ -27731,6 +27741,11 @@ PrefabInstance:
       propertyPath: vehicles.Array.data[0]
       value: 
       objectReference: {fileID: 203732346}
+    - target: {fileID: 8020113959815589814, guid: 7b2061b48dd1227458cf9346259247bf,
+        type: 3}
+      propertyPath: UIVisualizer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b2061b48dd1227458cf9346259247bf, type: 3}
 --- !u!1001 &816977256
@@ -42711,7 +42726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.7
+      value: 10.2
       objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67917,7 +67932,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -73800,6 +73815,11 @@ PrefabInstance:
     - target: {fileID: 1715749343420829152, guid: 555f19e3f96489e4b87d77029e70d81b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715749343420829154, guid: 555f19e3f96489e4b87d77029e70d81b,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1715749343420829165, guid: 555f19e3f96489e4b87d77029e70d81b,

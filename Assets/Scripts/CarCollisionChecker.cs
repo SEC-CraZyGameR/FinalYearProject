@@ -23,6 +23,7 @@ public class CarCollisionChecker : MonoBehaviour
                 Destroy(other.gameObject);
                 break;
             case "Destination":
+                MSVehicleControllerFree.Instance.StopCar();
                 DestinationReached();
                 //CarCanvas.Instance.ShowDialogue("You Have Reached Your Destination.Thank You");
                 break;
