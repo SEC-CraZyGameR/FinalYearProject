@@ -32,7 +32,6 @@ public class InstructionPanel : MonoBehaviour
         AssignValues();
         SetSignInformation();
 
-        txtInstruction.DOFade(0, .1f);
         StartCoroutine(StartSpeech());
     }
 

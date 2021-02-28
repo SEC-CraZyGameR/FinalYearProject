@@ -5,7 +5,6 @@ using TextSpeech;
 using UnityEngine;
 using UnityEngine.Android;
 using UnityEngine.Events;
-using System.Speech.Synthesis;
 
 public class VoiceController : MonoBehaviour
 {
