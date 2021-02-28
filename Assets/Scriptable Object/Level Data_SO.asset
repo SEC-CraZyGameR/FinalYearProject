@@ -17,39 +17,102 @@ MonoBehaviour:
     levelName: 
     sceneName: Level_04
     levelSprite: {fileID: 21300000, guid: ba46f6c24c8ec304ca346cb5be9f4c7e, type: 3}
+    signInfo:
+      signDescription: Triangular sign with an arrow showing a right hand bend (left
+        if symbol reversed).
+      signApplication: 'Thissign warnsthat there is a right hand (left hand) bend
+        aheadwhich a driver
+
+        may find difficult to negotiate without reducing
+        speed significantly - and
+
+        where he cannot easily see how sharp it
+        is. Bends which come after a long
+
+        straight section, or which are
+        very different from other bends on the road, are
+
+        particularly dangerous
+        and may need to be signed. Thissign tendsto be overused, and this confuses
+        drivers and makes the signing appear silly and
+
+        unnecessary.'
+      signLocation: 'The sign will be positioned on the left hand side of the road,
+        in advance of the
+
+        bend. The size of the sign and distance from the
+        hazard will be as detailed in
+
+        Table 2.'
   - levelId: 2
     levelName: 
     sceneName: Level_05
     levelSprite: {fileID: 21300000, guid: ba46f6c24c8ec304ca346cb5be9f4c7e, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 3
     levelName: 
     sceneName: Level_06
     levelSprite: {fileID: 21300000, guid: ed46dfe5cb1048243ad980321d8b984f, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 4
     levelName: 
     sceneName: Level_07
     levelSprite: {fileID: 21300000, guid: 4925048eafcbdb1468d00d09a233a3c5, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 5
     levelName: 
     sceneName: Level_08
     levelSprite: {fileID: 21300000, guid: 5d2b523e7232275449b79e97ee835fdc, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 6
     levelName: 
     sceneName: Level_09
     levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 7
     levelName: 
     sceneName: Level_10
     levelSprite: {fileID: 21300000, guid: 98400399641d895418ed361126624715, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 1
     levelName: 1
     sceneName: 
     levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 1
     levelName: 1
     sceneName: 
     levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
   - levelId: 1
     levelName: 1
     sceneName: 
     levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    signInfo:
+      signDescription: 
+      signApplication: 
+      signLocation: 
