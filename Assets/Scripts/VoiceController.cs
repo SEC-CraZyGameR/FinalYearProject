@@ -75,9 +75,9 @@ public class VoiceController : MonoBehaviour
 
     public void StartSpeak(string _data, UnityAction onSpeechDone = null)
     {
+        StopSpeak();
         _onSpeechDone = onSpeechDone;
         TextToSpeech.instance.StartSpeak(_data);
-        //TextToSpeech.instance.onDone(_data);
     }
 
     public void StopSpeak() => TextToSpeech.instance.StopSpeak();
