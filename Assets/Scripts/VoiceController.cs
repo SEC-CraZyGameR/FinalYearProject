@@ -73,11 +73,11 @@ public class VoiceController : MonoBehaviour
         TextToSpeech.instance.Setting(_code, pitch, rate);
     }
 
-    public void StartSpeak(string _data,UnityAction onSpeechDone = null)
+    public void StartSpeak(string _data, UnityAction onSpeechDone = null)
     {
         _onSpeechDone = onSpeechDone;
         TextToSpeech.instance.StartSpeak(_data);
-        TextToSpeech.instance.onDoneCallback();
+        //TextToSpeech.instance.onDone(_data);
     }
 
     public void StopSpeak() => TextToSpeech.instance.StopSpeak();

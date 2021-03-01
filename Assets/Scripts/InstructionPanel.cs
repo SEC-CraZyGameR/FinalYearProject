@@ -39,7 +39,7 @@ public class InstructionPanel : MonoBehaviour
     private IEnumerator StartSpeech()
     {
         txtInstruction.SetText(_signDescription);
-        VoiceController.Instance.StartSpeak(_signDescription,OnDescriptionDone);
+        VoiceController.Instance.StartSpeak(_signDescription, OnDescriptionDone);
 
         yield return _oneSeconds;
     }
@@ -47,13 +47,18 @@ public class InstructionPanel : MonoBehaviour
     private void OnDescriptionDone()
     {
         txtInstruction.SetText(_signApplication);
-        VoiceController.Instance.StartSpeak(_signApplication,OnApplicationDone);
+        VoiceController.Instance.StartSpeak(_signApplication, OnApplicationDone);
     }
 
     private void OnApplicationDone()
     {
         txtInstruction.SetText(_signLocation);
-        VoiceController.Instance.StartSpeak(_signLocation);
+        VoiceController.Instance.StartSpeak(_signLocation, OnLocationDone);
+    }
+
+    private void OnLocationDone()
+    {
+        MenuManager.Instance.LoadScene(_levelInfo.sceneName);
     }
 
     private void SetSignInformation()

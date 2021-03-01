@@ -228,7 +228,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 62754370}
-  - component: {fileID: 62754371}
   - component: {fileID: 62754372}
   m_Layer: 5
   m_Name: InstructionPanel
@@ -259,14 +258,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &62754371
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62754369}
-  m_CullTransparentMesh: 0
 --- !u!114 &62754372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2494,8 +2485,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: 0}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_AnchoredPosition: {x: 276, y: 112.6}
+  m_SizeDelta: {x: 1447.9907, y: 774.7887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664321235
 MonoBehaviour:
@@ -2516,9 +2507,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Triangular sign with an arrow showing a right hand bend (left if symbol
+  m_text: 'This sign warns that there is a right hand (left hand) bend aheadwhich
+    a driver
 
-    reversed).'
+    may find difficult to negotiate without reducing speed significantly
+    - and
+
+    where he cannot easily see how sharp it is. Bends which come after
+    a long
+
+    straight section, or which are very different from other bends on
+    the road, are
+
+    particularly dangerous and may need to be signed. Thissign
+    tendsto be overused, and this confuses drivers and makes the signing appear silly
+    and
+
+    unnecessary.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2546,14 +2551,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 60
+  m_fontSize: 56.25
   m_fontSizeBase: 60
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 50
   m_fontSizeMax: 60
-  m_fontStyle: 1
-  m_textAlignment: 520
+  m_fontStyle: 0
+  m_textAlignment: 513
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -2587,12 +2592,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 664321235}
-    characterCount: 82
+    characterCount: 466
     spriteCount: 0
-    spaceCount: 13
-    wordCount: 14
+    spaceCount: 78
+    wordCount: 79
     linkCount: 0
-    lineCount: 4
+    lineCount: 12
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -3504,7 +3509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -625, y: 113}
+  m_AnchoredPosition: {x: -750, y: 113}
   m_SizeDelta: {x: 512, y: 512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933219736
@@ -3520,7 +3525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -625, y: 113.00001, z: 0}
+  savedPos: {x: -750.00006, y: 113.00001, z: 0}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 512, y: 512}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5105,8 +5110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e169e56a3546446b6e88b46e799dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonId: 4
-  textToSpeech: Button pressed
+  buttonId: 9
+  textToSpeech: Back
 --- !u!114 &1295315835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5995,7 +6000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraObject: {fileID: 2074850501}
   rotationMargin: 25
-  runInEditorOnly: 1
+  runInEditorOnly: 0
 --- !u!4 &1531924822
 Transform:
   m_ObjectHideFlags: 0
@@ -6004,7 +6009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531924820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -3.75}
+  m_LocalPosition: {x: 0, y: 0, z: -3.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2074850501}

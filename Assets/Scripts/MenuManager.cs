@@ -95,6 +95,10 @@ public class MenuManager : MonoBehaviour
             case (int)ButtonID.levelSelectionRightBtn:
                 LevelSelection.Instance.RightBtnCallBack();
                 break;
+            case (int)ButtonID.backToLevelSelection:
+                instructionPanel.SetActive(false);
+                LevelSelectionCallBack();
+                break;
             default:
                 break;
         }

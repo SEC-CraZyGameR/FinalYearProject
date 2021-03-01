@@ -21,14 +21,14 @@ namespace CurvedUI
 
         public void PickThis()
         {
-            if (picked != null)
-                picked.GetComponent<Button>().targetGraphic.color = Color.white;
+            // if (picked != null)
+            //     picked.GetComponent<Button>().targetGraphic.color = Color.white;
             //Debug.Log("Clicked this!", this.gameObject);
 
             VoiceController.Instance.StartSpeak(textToSpeech);
 
             picked = this;
-            picked.GetComponent<Button>().targetGraphic.color = Color.red;
+            // picked.GetComponent<Button>().targetGraphic.color = Color.red;
 
             StartCoroutine(SendBtnClickResponse());
         }
