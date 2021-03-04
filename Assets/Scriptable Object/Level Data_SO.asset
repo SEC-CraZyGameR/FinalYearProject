@@ -16,7 +16,7 @@ MonoBehaviour:
   - levelId: 1
     levelName: 
     sceneName: Level_04
-    levelSprite: {fileID: 21300000, guid: ba46f6c24c8ec304ca346cb5be9f4c7e, type: 3}
+    levelSprite: {fileID: 21300000, guid: 69d84cd0b5f5b654bbc7ae77cd91953e, type: 3}
   - levelId: 2
     levelName: 
     sceneName: Level_05
