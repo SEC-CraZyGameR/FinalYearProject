@@ -197,7 +197,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5789841095917333214}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a11f826c744c64157acf90dc40d7a753, type: 2}
   m_CullingMode: 0
@@ -3398,6 +3398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5050592151788286454, guid: 0544bec0adcefaf40a0054102ed335e2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5050592152764898213, guid: 0544bec0adcefaf40a0054102ed335e2,
         type: 3}
       propertyPath: m_IsActive
@@ -3536,7 +3541,7 @@ PrefabInstance:
     - target: {fileID: 5050592151788286454, guid: 0544bec0adcefaf40a0054102ed335e2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0544bec0adcefaf40a0054102ed335e2, type: 3}
