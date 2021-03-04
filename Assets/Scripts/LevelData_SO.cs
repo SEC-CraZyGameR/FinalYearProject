@@ -2,6 +2,17 @@
 using UnityEngine;
 
 [System.Serializable]
+public class SignInfo
+{
+    [Multiline()]
+    public string signDescription;
+    [Multiline()]
+    public string signApplication;
+    [Multiline()]
+    public string signLocation;
+}
+
+[System.Serializable]
 public class LevelInfo
 {
     [Tooltip("Scene Name")]
@@ -9,6 +20,7 @@ public class LevelInfo
     public string levelName;
     public string sceneName;
     public Sprite levelSprite;
+    public SignInfo signInfo;
 }
 
 [CreateAssetMenu]

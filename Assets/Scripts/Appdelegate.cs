@@ -5,15 +5,11 @@ using UnityEngine;
 
 public class Appdelegate
 {
-    public static Appdelegate sharedInstance = null;
+    public static Appdelegate SharedInstance = null;
 
     public static Appdelegate SharedManager()
     {
-        if (sharedInstance == null)
-        {
-            sharedInstance = Appdelegate.Create();
-        }
-        return sharedInstance;
+        return SharedInstance ?? (SharedInstance = Appdelegate.Create());
     }
 
     private static Appdelegate Create()

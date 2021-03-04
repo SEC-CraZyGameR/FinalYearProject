@@ -1,14 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TextSpeech;
 using UnityEngine;
 using UnityEngine.Android;
+using UnityEngine.Events;
 
 public class VoiceController : MonoBehaviour
 {
     private const string bd_locale = "en_US";
     [SerializeField] float pitch = 1.0f;
     [SerializeField] float rate = 1.0f;
+
+    private UnityAction _onSpeechDone;
 
     #region Singleton
     static VoiceController _instance;
@@ -41,11 +45,21 @@ public class VoiceController : MonoBehaviour
 
     public void Start()
     {
+        TextToSpeech.instance.onDoneCallback += OnSpeechDone;
+
         Setting(bd_locale);
         CheckAndoidPermission();
     }
 
-    public void CheckAndoidPermission()
+    private void OnSpeechDone()
+    {
+        if (_onSpeechDone != null)
+        {
+            _onSpeechDone.Invoke();
+        }
+    }
+
+    private void CheckAndoidPermission()
     {
 #if UNITY_ANDROID
         if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
@@ -54,7 +68,17 @@ public class VoiceController : MonoBehaviour
         }
 #endif
     }
-    public void Setting(string _code) => TextToSpeech.instance.Setting(_code, pitch, rate);
-    public void StartSpeak(string _data) => TextToSpeech.instance.StartSpeak(_data);
+    public void Setting(string _code)
+    {
+        TextToSpeech.instance.Setting(_code, pitch, rate);
+    }
+
+    public void StartSpeak(string _data, UnityAction onSpeechDone = null)
+    {
+        StopSpeak();
+        _onSpeechDone = onSpeechDone;
+        TextToSpeech.instance.StartSpeak(_data);
+    }
+
     public void StopSpeak() => TextToSpeech.instance.StopSpeak();
 }

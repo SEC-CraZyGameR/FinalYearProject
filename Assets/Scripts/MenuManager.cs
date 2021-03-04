@@ -17,6 +17,7 @@ public class MenuManager : MonoBehaviour
     public GameObject about;
     public GameObject credits;
     public GameObject levelSelection;
+    public GameObject instructionPanel;
 
     private void Start()
     {
@@ -32,6 +33,13 @@ public class MenuManager : MonoBehaviour
         about.SetActive(false);
         credits.SetActive(false);
     }
+
+    public void InstructionPanelCallBack()
+    {
+        levelSelection.SetActive(false);
+        instructionPanel.SetActive(true);
+    }
+
     private void PlayCallBack()
     {
         levelSelection.SetActive(false);
@@ -79,13 +87,17 @@ public class MenuManager : MonoBehaviour
                 BtnBackToHomeCallBack();
                 break;
             case (int)ButtonID.levelSelection:
-                LoadScene(levelInfo.sceneName);
+                InstructionPanelCallBack();
                 break;
             case (int)ButtonID.levelSelectionLeftBtn:
                 LevelSelection.Instance.LeftBtnCallBack();
                 break;
             case (int)ButtonID.levelSelectionRightBtn:
                 LevelSelection.Instance.RightBtnCallBack();
+                break;
+            case (int)ButtonID.backToLevelSelection:
+                instructionPanel.SetActive(false);
+                LevelSelectionCallBack();
                 break;
             default:
                 break;
