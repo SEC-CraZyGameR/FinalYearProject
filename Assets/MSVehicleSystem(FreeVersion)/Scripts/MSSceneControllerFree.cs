@@ -30,8 +30,21 @@ public class ControlsFree
     [Space(10)]
     [Tooltip("If this variable is true, the control for this variable will be activated.")]
     public bool enable_handBrakeInput_Input = true;
-    [Tooltip("The key that must be pressed to activate or deactivate the vehicle hand brake.")]
-    public KeyCode handBrakeInput = KeyCode.Space;
+    //[Tooltip("The key that must be pressed to activate or deactivate the vehicle hand brake.")]
+    //public KeyCode handBrakeInput = KeyCode.Space;
+    public KeyCode handBrakeInput
+    {
+        get
+        {
+            KeyCode keyCode;
+            if (Application.isEditor)
+                keyCode = KeyCode.Space;
+            else
+                keyCode = KeyCode.Joystick1Button2;
+
+            return keyCode;
+        }
+    }
 
     [Space(10)]
     [Tooltip("If this variable is true, the control for this variable will be activated.")]

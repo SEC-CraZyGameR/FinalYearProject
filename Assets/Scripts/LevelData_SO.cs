@@ -19,6 +19,7 @@ public class LevelInfo
     public string levelId;
     public string levelName;
     public string sceneName;
+    public bool isUnlocked;
     public Sprite levelSprite;
     public SignInfo signInfo;
 }
@@ -51,5 +52,10 @@ public class LevelData_SO : ScriptableObject
             }
         }
         return AllLevelInfo[0];
+    }
+
+    public void UnlockLevel()
+    {
+
     }
 }
