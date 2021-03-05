@@ -62,6 +62,8 @@ public class ControlsFree
 public class MSSceneControllerFree : MonoBehaviour
 {
 
+    public static MSSceneControllerFree Instance = null;
+
     #region defineInputs
     [Tooltip("Vertical input recognized by the system")]
     public string _verticalInput = "Vertical";
@@ -155,6 +157,8 @@ public class MSSceneControllerFree : MonoBehaviour
 
     void Awake()
     {
+        Instance = this;
+
         error = false;
         CheckEqualKeyCodes();
         MSSceneControllerFree[] sceneControllers = FindObjectsOfType(typeof(MSSceneControllerFree)) as MSSceneControllerFree[];
@@ -533,22 +537,33 @@ public class MSSceneControllerFree : MonoBehaviour
             //
             if (vehicles.Length > 0 && currentVehicle < vehicles.Length && UIVisualizer && vehicleCode)
             {
-                if (vehicleCode.isInsideTheCar)
-                {
-                    clampGear = Mathf.Clamp(vehicleCode.currentGear, -1, 1);
-                    if (clampGear == 0)
-                    {
-                        clampGear = 1;
-                    }
-
-                    gearText.text = "Gear: " + vehicleCode.currentGear;
-                    kmhText.text = "Velocity(km/h): " + (int)(vehicleCode.KMh * clampGear);
-                    mphText.text = "Velocity(mp/h): " + (int)(vehicleCode.KMh * 0.621371f * clampGear);
-                    handBrakeText.text = "HandBreak: " + vehicleCode.handBrakeTrue;
-                    pauseText.text = "Pause: " + pause;
-                }
+                GetSpeed();
             }
         }
+    }
+
+    public string GetSpeed()
+    {
+        if (vehicleCode.isInsideTheCar)
+        {
+            clampGear = Mathf.Clamp(vehicleCode.currentGear, -1, 1);
+            if (clampGear == 0)
+            {
+                clampGear = 1;
+            }
+
+            gearText.text = "Gear: " + vehicleCode.currentGear;
+            kmhText.text = "Velocity(km/h): " + (int)(vehicleCode.KMh * clampGear);
+            mphText.text = "Velocity(mp/h): " + (int)(vehicleCode.KMh * 0.621371f * clampGear);
+            handBrakeText.text = "HandBreak: " + vehicleCode.handBrakeTrue;
+            pauseText.text = "Pause: " + pause;
+        }
+        return ((int)(vehicleCode.KMh * clampGear)).ToString();
+    }
+
+    public string GetSpeedInKmh()
+    {
+        return (vehicleCode.KMh * clampGear).ToString();
     }
 
     void EnableUI(bool enable)
