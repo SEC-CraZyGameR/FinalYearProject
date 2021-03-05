@@ -9,7 +9,7 @@ namespace CurvedUI
     public class CUI_PickImageFromSet : MonoBehaviour
     {
         public ButtonID buttonId;
-        public string textToSpeech = "Button pressed";
+        public string textToSpeech;
 
         static CUI_PickImageFromSet picked = null;
 
@@ -18,6 +18,13 @@ namespace CurvedUI
             GetComponent<Button>().onClick.AddListener(() => PickThis());
         }
 
+        private void OnEnable()
+        {
+            if (string.IsNullOrEmpty(textToSpeech))
+            {
+                textToSpeech = "Button Clicked";
+            }
+        }
 
         public void PickThis()
         {
@@ -39,7 +46,18 @@ namespace CurvedUI
             if (MenuManager.Instance != null)
             {
                 if (buttonId == ButtonID.levelSelection)
-                    MenuManager.Instance.ButtonClickResponse((int)buttonId, GetComponent<LevelSelectionItem>().levelInfo);
+                {
+                    LevelInfo levelInfo = GetComponent<LevelSelectionItem>().levelInfo;
+                    if (levelInfo.isUnlocked)
+                    {
+                        MenuManager.Instance.ButtonClickResponse((int)buttonId, levelInfo);
+                        Appdelegate.SharedManager().selectedLevelIfo = levelInfo;
+                    }
+                    else
+                    {
+                        VoiceController.Instance.StartSpeak("Please, clear previous level to unlock this level");
+                    }
+                }
                 else
                 {
                     MenuManager.Instance.ButtonClickResponse((int)buttonId);

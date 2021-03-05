@@ -25,9 +25,11 @@ public class LevelSelection : MonoBehaviour
 
     #endregion
 
-    [Header("Buttons")]
+    [Header("------Buttons------")]
     [SerializeField] Button btnLeft;
     [SerializeField] Button btnRight;
+
+    [Space(20)]
 
     [Header("LevelData Scriptable Object")]
     [SerializeField] LevelData_SO levelData_SO;

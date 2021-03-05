@@ -6,7 +6,7 @@ using UnityEngine;
 public class Appdelegate
 {
     public static Appdelegate SharedInstance = null;
-
+    #region Singleton
     public static Appdelegate SharedManager()
     {
         return SharedInstance ?? (SharedInstance = Appdelegate.Create());
@@ -26,4 +26,13 @@ public class Appdelegate
     {
         return true;
     }
+    #endregion
+
+    public LevelInfo selectedLevelIfo { get; set; }
+
+    #region Level Management
+    public static int GetCurrentLevel() => PlayerPrefs.GetInt(Constants.currentLevel, 1);
+    public void UpdateCurrentLevel() => SetLevel(GetCurrentLevel() + 1);
+    public static void SetLevel(int level) => PlayerPrefs.SetInt(Constants.currentLevel, level);
+    #endregion
 }

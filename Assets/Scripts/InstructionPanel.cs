@@ -28,7 +28,7 @@ public class InstructionPanel : MonoBehaviour
 
     public void Enable()
     {
-        _levelInfo = levelDataSo.GetLevelInfo("0");
+        _levelInfo = Appdelegate.SharedManager().selectedLevelIfo;
         AssignValues();
         SetSignInformation();
 
