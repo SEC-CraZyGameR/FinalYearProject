@@ -26,7 +26,7 @@ public class InstructionPanel : MonoBehaviour
     private readonly WaitForSeconds _threeSeconds = new WaitForSeconds(3.0f);
     private readonly WaitForSeconds _oneSeconds = new WaitForSeconds(1.0f);
 
-    public void Enable()
+    public void OnEnable()
     {
         _levelInfo = Appdelegate.SharedManager().selectedLevelIfo;
         AssignValues();

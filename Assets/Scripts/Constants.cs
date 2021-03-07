@@ -8,7 +8,8 @@
     playGame = 6,
     levelSelectionRightBtn = 7,
     levelSelectionLeftBtn = 8,
-    backToLevelSelection = 9
+    backToLevelSelection = 9,
+    InstructionSkip = 10,
 }
 
 
