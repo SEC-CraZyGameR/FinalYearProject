@@ -16,7 +16,6 @@ public class CarCollisionChecker : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-
         switch (other.tag)
         {
             case "PathIndicator":
@@ -30,6 +29,9 @@ public class CarCollisionChecker : MonoBehaviour
             default:
                 break;
         }
+
+        IdirectionController directionController = other.GetComponent<IdirectionController>();
+        if (directionController != null) directionController.GiveDirection();
     }
 
     public void DestinationReached()

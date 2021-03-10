@@ -30,6 +30,9 @@ public class Appdelegate
 
     public LevelInfo selectedLevelIfo { get; set; }
 
+    public readonly static int levelScore = 100;
+    public int currtentLevelScore = levelScore;
+
     #region Level Management
     public static int GetCurrentLevel() => PlayerPrefs.GetInt(Constants.currentLevel, 1);
     public void UpdateCurrentLevel() => SetLevel(GetCurrentLevel() + 1);
