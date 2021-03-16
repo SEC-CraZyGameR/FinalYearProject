@@ -17,11 +17,10 @@ MonoBehaviour:
     levelName: 
     sceneName: Level_11
     isUnlocked: 1
-    levelSprite: {fileID: 21300000, guid: ba46f6c24c8ec304ca346cb5be9f4c7e, type: 3}
+    levelSprite: {fileID: 21300000, guid: 69d84cd0b5f5b654bbc7ae77cd91953e, type: 3}
     signInfo:
-      signDescription: Triangular sign with an arrow showing a right hand bend (left
-        if symbol reversed).
-      signApplication: 'Thissign warnsthat there is a right hand (left hand) bend
+      signDescription: Sign with an arrow showing go Forward only
+      signApplication: 'This sign warnsthat there is a right hand (left hand) bend
         aheadwhich a driver
 
         may find difficult to negotiate without reducing

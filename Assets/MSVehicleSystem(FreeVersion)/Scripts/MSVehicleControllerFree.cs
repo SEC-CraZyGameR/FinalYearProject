@@ -1959,6 +1959,7 @@ public class MSVehicleControllerFree : MonoBehaviour
                 if (_sounds.collisionSounds.Length > 0)
                 {
                     VoiceController.Instance.StartSpeak("Be careful");
+                    Appdelegate.SharedManager().currtentLevelScore -= 10;
 
                     beatsSoundAUD.clip = _sounds.collisionSounds[UnityEngine.Random.Range(0, _sounds.collisionSounds.Length)];
                     beatsSoundAUD.PlayOneShot(beatsSoundAUD.clip);

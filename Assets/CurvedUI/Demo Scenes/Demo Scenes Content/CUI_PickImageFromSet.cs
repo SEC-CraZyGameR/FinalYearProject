@@ -32,8 +32,8 @@ namespace CurvedUI
             //     picked.GetComponent<Button>().targetGraphic.color = Color.white;
             //Debug.Log("Clicked this!", this.gameObject);
 
-            VoiceController.Instance.StartSpeak(textToSpeech);
-
+            //VoiceController.Instance.StartSpeak(textToSpeech);
+            SoundManager.Instance.PlayBtnSound();
             picked = this;
             // picked.GetComponent<Button>().targetGraphic.color = Color.red;
 

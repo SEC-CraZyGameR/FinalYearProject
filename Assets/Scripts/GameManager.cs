@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
 
         isReadyForMove = false;
+
+        _ = InputHandler.Instance;
     }
 
     public void Start()

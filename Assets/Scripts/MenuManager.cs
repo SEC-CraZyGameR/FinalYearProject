@@ -99,6 +99,9 @@ public class MenuManager : MonoBehaviour
                 instructionPanel.SetActive(false);
                 LevelSelectionCallBack();
                 break;
+            case (int)ButtonID.InstructionSkip:
+                LoadScene(Appdelegate.SharedManager().selectedLevelIfo.sceneName);
+                break;
             default:
                 break;
         }
