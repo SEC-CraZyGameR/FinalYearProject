@@ -50,8 +50,8 @@ namespace CurvedUI
                     LevelInfo levelInfo = GetComponent<LevelSelectionItem>().levelInfo;
                     if (levelInfo.isUnlocked)
                     {
-                        MenuManager.Instance.ButtonClickResponse((int)buttonId, levelInfo);
                         Appdelegate.SharedManager().selectedLevelIfo = levelInfo;
+                        MenuManager.Instance.ButtonClickResponse((int)buttonId, levelInfo);
                     }
                     else
                     {
