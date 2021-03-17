@@ -9,6 +9,8 @@ TagManager:
   - Destination
   - Areacolider
   - Car
+  - SignalChecker
+  - SignalActivator
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Md Amanulla\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Md Amanulla\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FinalYearProject.1869265668.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\Project File\FinalYearProject" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AreaCollider.cs" t="Include" />
+        <e p="CS - Signs Free" t="Include">
+          <e p="README.txt" t="Include" />
+          <e p="Standard 2 Sided.shader" t="Include" />
+        </e>
+        <e p="CurvedUI" t="Include">
+          <e p="CurvedUI_changelog.txt" t="Include" />
+          <e p="Demo Scenes" t="Include">
+            <e p="Demo Scenes Content" t="Include">
+              <e p="CUI_AnimateCurvedFillOnStart.cs" t="Include" />
+              <e p="CUI_CameraController.cs" t="Include" />
+              <e p="CUI_CameraRotationOnButtonHeld.cs" t="Include" />
+              <e p="CUI_ChangeColor.cs" t="Include" />
+              <e p="CUI_ChangeValueOnHold.cs" t="Include" />
+              <e p="CUI_DragBetweenCanvases.cs" t="Include" />
+              <e p="CUI_draggable.cs" t="Include" />
+              <e p="CUI_GunController.cs" t="Include" />
+              <e p="CUI_GunMovement.cs" t="Include" />
+              <e p="CUI_inventory_paralax.cs" t="Include" />
+              <e p="CUI_MoveAlong.cs" t="Include" />
+              <e p="CUI_MoveHeartbeat.cs" t="Include" />
+              <e p="CUI_OrientOnCurvedSpace.cs" t="Include" />
+              <e p="CUI_PerlinNoisePosition.cs" t="Include" />
+              <e p="CUI_PerlinNoiseRotation.cs" t="Include" />
+              <e p="CUI_PickImageFromSet.cs" t="Include" />
+              <e p="CUI_RaycastToCanvas.cs" t="Include" />
+              <e p="CUI_RiseChildrenOverTime.cs" t="Include" />
+              <e p="CUI_rotation_anim.cs" t="Include" />
+              <e p="CUI_ShowParentCoordinates.cs" t="Include" />
+              <e p="CUI_TMPChecker.cs" t="Include" />
+              <e p="CUI_touchpad.cs" t="Include" />
+              <e p="CUI_ViveButtonState.cs" t="Include" />
+              <e p="CUI_ViveHapticPulse.cs" t="Include" />
+              <e p="CUI_WorldSpaceCursorFollow.cs" t="Include" />
+              <e p="CUI_WorldSpaceMouseMultipleCanvases.cs" t="Include" />
+              <e p="OverlayBlend.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CurvedUIEventSystem.cs" t="Include" />
+            <e p="CurvedUIExtensionMethods.cs" t="Include" />
+            <e p="CurvedUIHandSwitcher.cs" t="Include" />
+            <e p="CurvedUIInputFieldCaret.cs" t="Include" />
+            <e p="CurvedUIInputModule.cs" t="Include" />
+            <e p="CurvedUILaserBeam.cs" t="Include" />
+            <e p="CurvedUIPhysicsRaycaster.cs" t="Include" />
+            <e p="CurvedUIPointerEventData.cs" t="Include" />
+            <e p="CurvedUIRaycaster.cs" t="Include" />
+            <e p="CurvedUISettings.cs" t="Include" />
+            <e p="CurvedUIVertexEffect.cs" t="Include" />
+            <e p="CurvedUIViveController.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ConditionalCompilationUtility.cs" t="Include" />
+              <e p="CurvedUIHandSwitcherEditor.cs" t="Include" />
+              <e p="CurvedUIInputModuleEditor.cs" t="Include" />
+              <e p="CurvedUIScriptOrder.cs" t="Include" />
+              <e p="CurvedUISettingsEditor.cs" t="Include" />
+            </e>
+            <e p="Experimental" t="Include">
+              <e p="CurvedUITMP.cs" t="Include" />
+              <e p="CurvedUITMPInputFieldCaret.cs" t="Include" />
+              <e p="CurvedUITMPSubmesh.cs" t="Include" />
+            </e>
+            <e p="OptionalDependencyAttribute.cs" t="Include" />
+          </e>
+        </e>
+        <e p="GoogleVR" t="Include">
+          <e p="Beta" t="Include">
+            <e p="Demos" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DemoObjectController6DoF.cs" t="Include" />
+                <e p="DemoSeeThroughController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="GvrBetaControllerInput.cs" t="Include" />
+              <e p="GvrBetaControllerState.cs" t="Include" />
+              <e p="GvrBetaControllerVisualMulti.cs" t="Include" />
+              <e p="GvrBetaHeadset.cs" t="Include" />
+              <e p="GvrBetaSettings.cs" t="Include" />
+              <e p="GvrControllerInputDeviceExtension.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="GvrBetaAndroidNativeControllerInputProvider.cs" t="Include" />
+                <e p="GvrBetaEditorControllerInputProvider.cs" t="Include" />
+                <e p="GvrBetaHeadsetProvider.cs" t="Include" />
+                <e p="GvrBetaSettingsProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="GvrSeeThroughUI.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Demos" t="Include">
+            <e p="Editor" t="Include">
+              <e p="DemoInputManagerEditor.cs" t="Include" />
+              <e p="PermissionsDemoBuildProcessor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="DemoInfoPanel.cs" t="Include" />
+              <e p="DemoInputManager.cs" t="Include" />
+              <e p="DemoSceneManager.cs" t="Include" />
+              <e p="HelloVR" t="Include">
+                <e p="HeadsetDemoManager.cs" t="Include" />
+                <e p="HelloVRManager.cs" t="Include" />
+                <e p="ObjectController.cs" t="Include" />
+              </e>
+              <e p="KeyboardDemo" t="Include">
+                <e p="KeyboardDelegateExample.cs" t="Include" />
+              </e>
+              <e p="PermissionsDemo" t="Include">
+                <e p="PermissionsFlowManager.cs" t="Include" />
+              </e>
+              <e p="VideoDemo" t="Include">
+                <e p="AutoPlayVideo.cs" t="Include" />
+                <e p="InputEvents" t="Include">
+                  <e p="BoolEvent.cs" t="Include" />
+                  <e p="ButtonEvent.cs" t="Include" />
+                  <e p="FloatEvent.cs" t="Include" />
+                  <e p="GameObjectEvent.cs" t="Include" />
+                  <e p="TouchPadEvent.cs" t="Include" />
+                  <e p="TransformEvent.cs" t="Include" />
+                  <e p="Vector2Event.cs" t="Include" />
+                  <e p="Vector3Event.cs" t="Include" />
+                </e>
+                <e p="ScrubberEvents.cs" t="Include" />
+                <e p="SwitchVideos.cs" t="Include" />
+                <e p="VideoControlsManager.cs" t="Include" />
+                <e p="VideoPlayerReference.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="HelloVR" t="Include">
+                <e p="HelloVRUnlitGrayscaleToColor.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="Controller" t="Include">
+              <e p="GvrControllerVisualEditor.cs" t="Include" />
+              <e p="GvrLaserPointerEditor.cs" t="Include" />
+              <e p="GvrLaserVisualEditor.cs" t="Include" />
+              <e p="GvrTooltipEditor.cs" t="Include" />
+            </e>
+            <e p="EventSystem" t="Include">
+              <e p="GvrPointerScrollInputEditor.cs" t="Include" />
+            </e>
+            <e p="GvrBuildProcessor.cs" t="Include" />
+            <e p="GvrEditorEmulatorEditor.cs" t="Include" />
+            <e p="GvrEditorMenu.cs" t="Include" />
+            <e p="GvrEditorSettings.cs" t="Include" />
+            <e p="GvrHeadsetEditor.cs" t="Include" />
+            <e p="InstantPreviewEditor.cs" t="Include" />
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Android" t="Include">
+              <e p="AndroidManifest-6DOF.xml" t="Include" />
+              <e p="AndroidManifest-Cardboard.xml" t="Include" />
+              <e p="AndroidManifest-Daydream.xml" t="Include" />
+              <e p="proguard-gvr.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Cardboard" t="Include">
+              <e p="GvrReticlePointer.cs" t="Include" />
+            </e>
+            <e p="Controller" t="Include">
+              <e p="ArmModel" t="Include">
+                <e p="GvrArmModel.cs" t="Include" />
+                <e p="GvrBaseArmModel.cs" t="Include" />
+                <e p="IGvrArmModelReceiver.cs" t="Include" />
+              </e>
+              <e p="GvrControllerInput.cs" t="Include" />
+              <e p="GvrControllerInputDevice.cs" t="Include" />
+              <e p="GvrControllerReticleVisual.cs" t="Include" />
+              <e p="GvrControllerVisual.cs" t="Include" />
+              <e p="GvrLaserPointer.cs" t="Include" />
+              <e p="GvrLaserVisual.cs" t="Include" />
+              <e p="GvrRecenterOnlyController.cs" t="Include" />
+              <e p="GvrTrackedController.cs" t="Include" />
+              <e p="IGvrControllerInputDeviceReceiver.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="ControllerProviderFactory.cs" t="Include" />
+                <e p="ControllerProviders" t="Include">
+                  <e p="AndroidNativeShimControllerProvider.cs" t="Include" />
+                  <e p="DummyControllerProvider.cs" t="Include" />
+                  <e p="EditorControllerProvider.cs" t="Include" />
+                  <e p="EmulatorControllerProvider.cs" t="Include" />
+                  <e p="MouseControllerProvider.cs" t="Include" />
+                </e>
+                <e p="ControllerState.cs" t="Include" />
+                <e p="ControllerUtils.cs" t="Include" />
+                <e p="Emulator" t="Include">
+                  <e p="EmulatorClientSocket.cs" t="Include" />
+                  <e p="EmulatorConfig.cs" t="Include" />
+                  <e p="EmulatorDataTypes.cs" t="Include" />
+                  <e p="EmulatorManager.cs" t="Include" />
+                  <e p="Generated" t="Include">
+                    <e p="PhoneEvent.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="IControllerProvider.cs" t="Include" />
+              </e>
+              <e p="Tooltips" t="Include">
+                <e p="GvrControllerTooltipsSimple.cs" t="Include" />
+                <e p="GvrTooltip.cs" t="Include" />
+              </e>
+            </e>
+            <e p="EventSystem" t="Include">
+              <e p="GvrBasePointer.cs" t="Include" />
+              <e p="GvrBasePointerRaycaster.cs" t="Include" />
+              <e p="GvrExecuteEventsExtension.cs" t="Include" />
+              <e p="GvrPointerEventData.cs" t="Include" />
+              <e p="GvrPointerEventDataExtension.cs" t="Include" />
+              <e p="GvrPointerGraphicRaycaster.cs" t="Include" />
+              <e p="GvrPointerPhysicsRaycaster.cs" t="Include" />
+              <e p="GvrPointerScrollInput.cs" t="Include" />
+              <e p="GvrScrollSettings.cs" t="Include" />
+              <e p="GvrXREventsSubscriber.cs" t="Include" />
+              <e p="IGvrPointerHoverHandler.cs" t="Include" />
+              <e p="IGvrScrollSettings.cs" t="Include" />
+              <e p="InputModule" t="Include">
+                <e p="GvrAllEventsTrigger.cs" t="Include" />
+                <e p="GvrEventExecutor.cs" t="Include" />
+                <e p="GvrPointerInputModule.cs" t="Include" />
+                <e p="GvrPointerInputModuleImpl.cs" t="Include" />
+                <e p="IGvrEventExecutor.cs" t="Include" />
+                <e p="IGvrInputModuleController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GvrCardboardHelpers.cs" t="Include" />
+            <e p="GvrEditorEmulator.cs" t="Include" />
+            <e p="GvrSettings.cs" t="Include" />
+            <e p="GvrUnitySdkVersion.cs" t="Include" />
+            <e p="Headset" t="Include">
+              <e p="Enums" t="Include">
+                <e p="GvrErrorType.cs" t="Include" />
+                <e p="GvrEventType.cs" t="Include" />
+                <e p="GvrRecenterEventType.cs" t="Include" />
+                <e p="GvrRecenterFlags.cs" t="Include" />
+                <e p="GvrSafetyRegionType.cs" t="Include" />
+              </e>
+              <e p="GvrHeadset.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="HeadsetProviderFactory.cs" t="Include" />
+                <e p="HeadsetProviders" t="Include">
+                  <e p="AndroidNativeHeadsetEnums.cs" t="Include" />
+                  <e p="AndroidNativeHeadsetProvider.cs" t="Include" />
+                  <e p="DummyHeadsetProvider.cs" t="Include" />
+                  <e p="EditorHeadsetProvider.cs" t="Include" />
+                </e>
+                <e p="HeadsetState.cs" t="Include" />
+                <e p="IHeadsetProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="InstantPreview" t="Include">
+              <e p="InstantPreviewHelper.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="InstantPreview.cs" t="Include" />
+                <e p="InstantPreviewControllerProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Internal" t="Include">
+              <e p="EditorCameraOriginDict.cs" t="Include" />
+            </e>
+            <e p="Keyboard" t="Include">
+              <e p="GvrKeyboard.cs" t="Include" />
+              <e p="GvrKeyboardDelegateBase.cs" t="Include" />
+              <e p="GvrKeyboardIntent.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="IKeyboardProvider.cs" t="Include" />
+                <e p="KeyboardProviderFactory.cs" t="Include" />
+                <e p="KeyboardProviders" t="Include">
+                  <e p="AndroidNativeKeyboardProvider.cs" t="Include" />
+                  <e p="DummyKeyboardProvider.cs" t="Include" />
+                  <e p="EmulatorKeyboardProvider.cs" t="Include" />
+                </e>
+                <e p="KeyboardState.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Permissions" t="Include">
+              <e p="GvrPermissionsRequester.cs" t="Include" />
+            </e>
+            <e p="Pose3D.cs" t="Include" />
+            <e p="PropertyDrawers" t="Include">
+              <e p="GvrInfo.cs" t="Include" />
+              <e p="GvrInfoDrawer.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="GvrDropdown.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="GvrActivityHelper.cs" t="Include" />
+              <e p="GvrDaydreamApi.cs" t="Include" />
+              <e p="GvrIntent.cs" t="Include" />
+              <e p="GvrMathHelpers.cs" t="Include" />
+              <e p="GvrUIHelpers.cs" t="Include" />
+              <e p="GvrVRHelpers.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="GvrCursorHelper.cs" t="Include" />
+                <e p="SuppressMemoryAllocationErrorAttribute.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Video" t="Include">
+              <e p="GvrVideoPlayerTexture.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="GvrAdditiveOverlay.shader" t="Include" />
+            <e p="GvrController.shader" t="Include" />
+            <e p="GvrControllerReticle.shader" t="Include" />
+            <e p="GvrReticleShader.shader" t="Include" />
+            <e p="GvrUIOverlay.shader" t="Include" />
+            <e p="GvrUIOverlayFont.shader" t="Include" />
+            <e p="GvrUnlitTextureOverlay.shader" t="Include" />
+            <e p="GvrUnlitTransparentOverlay.shader" t="Include" />
+            <e p="GvrUnlitTransparentOverlayColor.shader" t="Include" />
+            <e p="Video" t="Include">
+              <e p="VideoUnlitShader.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Human.cs" t="Include" />
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX" t="Include">
+            <e p="CartoonFX Free.txt" t="Include" />
+            <e p="Demo" t="Include">
+              <e p="Assets" t="Include">
+                <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                <e p="CFX_Demo_New.cs" t="Include" />
+                <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                <e p="CFX_Demo_RandomDirectionTranslate.cs" t="Include" />
+                <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                <e p="CFX_Demo_Translate.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_AutoRotate.cs" t="Include" />
+              <e p="CFX_LightFlicker.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CFX3 Multiply Color.shader" t="Include" />
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="MaskShader.shader" t="Include" />
+        <e p="MSVehicleSystem(FreeVersion)" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ExampleSceneFree.cs" t="Include" />
+            <e p="JoystickFree.cs" t="Include" />
+            <e p="MSButtonFree.cs" t="Include" />
+            <e p="MSFPSControllerFree.cs" t="Include" />
+            <e p="MSOpenURL.cs" t="Include" />
+            <e p="MSSceneControllerFree.cs" t="Include" />
+            <e p="MSVehicleControllerFree.cs" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="SkidMarks.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Update Notes.txt" t="Include" />
+        </e>
+        <e p="NavMeshComponents-master" t="Include">
+          <e p="NavMeshComponents-master" t="Include">
+            <e p="Assets" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshComponentsExamplesEditor.asmdef" t="Include" />
+                  <e p="NavMeshPrefabInstanceEditor.cs" t="Include" />
+                </e>
+                <e p="NavMeshComponentsExamples.asmdef" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="AgentLinkMover.cs" t="Include" />
+                  <e p="ClickToMove.cs" t="Include" />
+                  <e p="DestroyOnTrigger.cs" t="Include" />
+                  <e p="DungeonManager.cs" t="Include" />
+                  <e p="EnableIffSleeping.cs" t="Include" />
+                  <e p="FreeCam.cs" t="Include" />
+                  <e p="LocalNavMeshBuilder.cs" t="Include" />
+                  <e p="MeshTool.cs" t="Include" />
+                  <e p="NavMeshPrefabInstance.cs" t="Include" />
+                  <e p="NavMeshSourceTag.cs" t="Include" />
+                  <e p="Oscillator.cs" t="Include" />
+                  <e p="RandomInstancing.cs" t="Include" />
+                  <e p="RandomWalk.cs" t="Include" />
+                  <e p="SpawnPrefabOnKeyDown.cs" t="Include" />
+                </e>
+              </e>
+              <e p="NavMeshComponents" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshAssetManager.cs" t="Include" />
+                  <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+                  <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                  <e p="NavMeshLinkEditor.cs" t="Include" />
+                  <e p="NavMeshModifierEditor.cs" t="Include" />
+                  <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                  <e p="NavMeshSurfaceEditor.cs" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="NavMeshComponents.asmdef" t="Include" />
+                  <e p="NavMeshLink.cs" t="Include" />
+                  <e p="NavMeshModifier.cs" t="Include" />
+                  <e p="NavMeshModifierVolume.cs" t="Include" />
+                  <e p="NavMeshSurface.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Tests" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshComponentsTestsEditmode.asmdef" t="Include" />
+                  <e p="NavMeshModifierVolumeInPrefabTests.cs" t="Include" />
+                  <e p="NavMeshSurfaceInPrefabTests.cs" t="Include" />
+                  <e p="NavMeshSurfaceInPrefabVariantTests.cs" t="Include" />
+                  <e p="PrefabSavingUtil.cs" t="Include" />
+                  <e p="PrefabStageAutoSavingUtil.cs" t="Include" />
+                </e>
+                <e p="NavMeshComponentsTestsPlaymode.asmdef" t="Include" />
+                <e p="NavMeshSurfaceAgentTests.cs" t="Include" />
+                <e p="NavMeshSurfaceLinkTests.cs" t="Include" />
+                <e p="NavMeshSurfaceModifierTests.cs" t="Include" />
+                <e p="NavMeshSurfaceModifierVolumeTests.cs" t="Include" />
+                <e p="NavMeshSurfaceTests.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ProjectSettings" t="Include">
+              <e p="ProjectVersion.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+          </e>
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="README.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Appdelegate.cs" t="Include" />
+          <e p="CarCanvas.cs" t="Include" />
+          <e p="CarCollisionChecker.cs" t="Include" />
+          <e p="Constants.cs" t="Include" />
+          <e p="DirectionController.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GVRButton.cs" t="Include" />
+          <e p="InputHandler.cs" t="Include" />
+          <e p="InstructionPanel.cs" t="Include" />
+          <e p="LampPostController.cs" t="Include" />
+          <e p="LevelData_SO.cs" t="Include" />
+          <e p="LevelSelection.cs" t="Include" />
+          <e p="LevelSelectionItem.cs" t="Include" />
+          <e p="MenuManager.cs" t="Include" />
+          <e p="SeatBeltController.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
+          <e p="VehicleSpeed.cs" t="Include" />
+          <e p="VoiceController.cs" t="Include" />
+        </e>
+        <e p="Simple city plain" t="Include">
+          <e p="Read_me.txt" t="Include" />
+        </e>
+        <e p="SpeechAndText" t="Include">
+          <e p="README.txt" t="Include" />
+          <e p="Sample" t="Include">
+            <e p="AndroidDebug.cs" t="Include" />
+            <e p="RotateAnim.cs" t="Include" />
+            <e p="SampleSpeechToText.cs" t="Include" />
+            <e p="SpeechButton.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="SpeechToText.cs" t="Include" />
+            <e p="TextToSpeech.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Supercyan Character Pack Free Sample" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CameraLogicFree.cs" t="Include" />
+            <e p="DemoFree.cs" t="Include" />
+            <e p="SimpleCharacterControlFree.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="FreeCelShader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="WayPointsManager.cs" t="Include" />
+      </e>
+      <e p="FinalYearProject.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamples.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamplesEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsTestsEditmode.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsTestsPlaymode.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
