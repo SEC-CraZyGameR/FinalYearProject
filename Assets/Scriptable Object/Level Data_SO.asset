@@ -15,7 +15,7 @@ MonoBehaviour:
   AllLevelInfo:
   - levelId: 1
     levelName: 
-    sceneName: Level_11
+    sceneName: Level_01
     isUnlocked: 1
     levelSprite: {fileID: 21300000, guid: 69d84cd0b5f5b654bbc7ae77cd91953e, type: 3}
     signInfo:
@@ -46,54 +46,87 @@ MonoBehaviour:
         Table 2.'
   - levelId: 2
     levelName: 
-    sceneName: Level_05
+    sceneName: Level_02
     isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: ba46f6c24c8ec304ca346cb5be9f4c7e, type: 3}
+    levelSprite: {fileID: 21300000, guid: e0e793fa3d2bb144b92a2a334807a8a5, type: 3}
     signInfo:
-      signDescription: 
-      signApplication: 
-      signLocation: 
-  - levelId: 3
-    levelName: 
-    sceneName: Level_06
-    isUnlocked: 1
-    levelSprite: {fileID: 21300000, guid: ed46dfe5cb1048243ad980321d8b984f, type: 3}
-    signInfo:
-      signDescription: 
-      signApplication: 
-      signLocation: 
-  - levelId: 4
-    levelName: 
-    sceneName: Level_07
-    isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 4925048eafcbdb1468d00d09a233a3c5, type: 3}
-    signInfo:
-      signDescription: 
-      signApplication: 
-      signLocation: 
-  - levelId: 5
-    levelName: 
-    sceneName: Level_08
-    isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 5d2b523e7232275449b79e97ee835fdc, type: 3}
-    signInfo:
-      signDescription: Triangularsign with symbol ofaTjunction
-      signApplication: 'The sign warnsthat there isaT junction ahead where a left
-        or right turn can be
+      signDescription: Triangular sign with an arrow showing a right hand bend
+      signApplication: 'Thissign warnsthat there is a right hand (left hand) bend
+        aheadwhich a driver
 
-        made. The sign will not be required where advance
-        direction signs are used, or
+        may find difficult to negotiate without reducing
+        speed significantly - and
 
-        at junctions controlled by traffic
-        signals.Minorjunctionsin towns and villages
+        where he cannot easily see how sharp
+        it is. Bends which come after a long
 
-        should not be signed
-        unlessthere is a safety problem.'
+        straight section, or which
+        are very different from other bends on the road, are
+
+        particularly
+        dangerous and may need to be signed'
       signLocation: 'The sign will be positioned on the left hand side of the road,
         in advance of the
 
-        junction. The size of the sign and distance from
-        the hazard will be as detailed'
+        bend'
+  - levelId: 3
+    levelName: 
+    sceneName: Level_03
+    isUnlocked: 1
+    levelSprite: {fileID: 21300000, guid: 31d9bb5fc01251c49a0d88095c025345, type: 3}
+    signInfo:
+      signDescription: Circularsign with red octagon symbol. It is used as a temporary
+        stop sign.
+      signApplication: 'The sign is mostly used to control traffic where one-way
+        working is
+
+        temporarily necessary, such as at roadworks. It forms
+        one side of a manually
+
+        operated stop/go board. It can also be used
+        by police officers and other
+
+        authorised persons to tell vehicles
+        to stop'
+      signLocation: 'See section E7 Signs at Roadworksfor guidance on how and where
+        temporary
+
+        traffic controlshould be used.'
+  - levelId: 4
+    levelName: 
+    sceneName: Level_04
+    isUnlocked: 0
+    levelSprite: {fileID: 21300000, guid: 4925048eafcbdb1468d00d09a233a3c5, type: 3}
+    signInfo:
+      signDescription: Test 1
+      signApplication: Level 1, 2 and 3 combination. For your Test
+      signLocation: 
+  - levelId: 5
+    levelName: 
+    sceneName: Level_05
+    isUnlocked: 0
+    levelSprite: {fileID: 21300000, guid: dd08495436e226942a204d302b03dd2d, type: 3}
+    signInfo:
+      signDescription: NO STOPPING
+      signApplication: 'Thissign demarcatesthe areas where stopping and waiting is
+        not allowed. It is
+
+        used in urban areas where it is essential to
+        ban vehiclesfrom stopping, e.g., on
+
+        heavily-trafficked or high-speed
+        roads where stopping would cause
+
+        congestion and accidents. Supplementary
+        plate D2 may also be used to
+
+        indicate the distance over which the
+        restriction is applicable.'
+      signLocation: 'The sign should be displayed on both sides of the road at the
+        beginning of the
+
+        restriction. The sign should be repeated after
+        junctions a'
   - levelId: 6
     levelName: 
     sceneName: Level_09

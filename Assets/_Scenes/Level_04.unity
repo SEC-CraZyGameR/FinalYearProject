@@ -10541,12 +10541,17 @@ PrefabInstance:
     - target: {fileID: 1715749343420829154, guid: 555f19e3f96489e4b87d77029e70d81b,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1715749343420829165, guid: 555f19e3f96489e4b87d77029e70d81b,
         type: 3}
       propertyPath: m_Name
       value: AreaColidwe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715749343420829165, guid: 555f19e3f96489e4b87d77029e70d81b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 555f19e3f96489e4b87d77029e70d81b, type: 3}
