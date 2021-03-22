@@ -76,6 +76,7 @@ public class CarCollisionChecker : MonoBehaviour
     {
         yield return new WaitForSeconds(5.5f);
         LevelInfo nextlevelInfo = levelData.GetNextLevelInfo(SceneManager.GetActiveScene().name);
+        nextlevelInfo.isUnlocked = true;
         SceneManager.LoadScene(nextlevelInfo.sceneName);
     }
 }
