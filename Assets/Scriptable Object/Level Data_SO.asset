@@ -57,14 +57,14 @@ MonoBehaviour:
         may find difficult to negotiate without reducing
         speed significantly - and
 
-        where he cannot easily see how sharp
-        it is. Bends which come after a long
+        where he cannot easily see how sharp it
+        is. Bends which come after a long
 
-        straight section, or which
-        are very different from other bends on the road, are
+        straight section, or which are
+        very different from other bends on the road, are
 
-        particularly
-        dangerous and may need to be signed'
+        particularly dangerous
+        and may need to be signed'
       signLocation: 'The sign will be positioned on the left hand side of the road,
         in advance of the
 
@@ -96,7 +96,7 @@ MonoBehaviour:
     levelName: 
     sceneName: Level_04
     isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 4925048eafcbdb1468d00d09a233a3c5, type: 3}
+    levelSprite: {fileID: 21300000, guid: 428cc096a534a8f4eb53f3c3a2d05845, type: 3}
     signInfo:
       signDescription: Test 1
       signApplication: Level 1, 2 and 3 combination. For your Test
@@ -131,14 +131,27 @@ MonoBehaviour:
     levelName: 
     sceneName: Level_09
     isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    levelSprite: {fileID: 21300000, guid: 4925048eafcbdb1468d00d09a233a3c5, type: 3}
     signInfo:
-      signDescription: 
-      signApplication: 
-      signLocation: 
+      signDescription: 'Circular sign with U turn arrow overlaid by red diagonal
+        from top right to
+
+        bottom left indicating no U turns'
+      signApplication: 'Where it is prohibited for vehicles to reverse their direction
+        by makingaU
+
+        turn. This will usually be because the manoeuvre is
+        dangerous'
+      signLocation: 'The sign should be sited on the left hand side of the road at
+        the point where the
+
+        turn would be made. On a dual carriageway the
+        sign should be positioned on
+
+        the median'
   - levelId: 7
     levelName: 
-    sceneName: Level_10
+    sceneName: Level_08
     isUnlocked: 0
     levelSprite: {fileID: 21300000, guid: 98400399641d895418ed361126624715, type: 3}
     signInfo:
@@ -156,20 +169,29 @@ MonoBehaviour:
 
         hazard. The size of the sign and distance from
         the hazard will be as detailed'
-  - levelId: 1
-    levelName: 1
-    sceneName: 
+  - levelId: 8
+    levelName: 
+    sceneName: Level_07
     isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    levelSprite: {fileID: 21300000, guid: a462c617cc96680479eb985e7431d88a, type: 3}
     signInfo:
-      signDescription: 
-      signApplication: 
+      signDescription: "Triangular sign with symbol showing a car on a steep downhill
+        gradient.\r\nNote that the symbol is not reversed if the road goes down to
+        the left.\r"
+      signApplication: 'The sign should be used to give advance warning of a steep
+        hill with a gradient
+
+        of 7% or more. Supplementary plate D2 may
+        be added below the sign
+
+        indicating over what distance the steep
+        gradients continue.'
       signLocation: 
-  - levelId: 1
-    levelName: 1
+  - levelId: 9
+    levelName: 
     sceneName: 
     isUnlocked: 0
-    levelSprite: {fileID: 21300000, guid: 1a09114e8edffb448a8a4dcdea46ef8d, type: 3}
+    levelSprite: {fileID: 21300000, guid: eeffcb19a04bcaa42addf863095aa8aa, type: 3}
     signInfo:
       signDescription: 
       signApplication: 
